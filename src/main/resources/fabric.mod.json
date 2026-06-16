@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "lancutter",
+    "version": "${version}",
+    "name": "lancutter",
+    "description": "limits displayed lan servers in the multiplayer menu",
+    "authors": [
+        "w1zx1"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/lancutter/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "net.w1zx1.lancutter.LancutterMod"
+        ]
+    },
+    "mixins": [
+        "lancutter.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": "~${minecraft_version}",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}

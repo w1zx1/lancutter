@@ -1,0 +1,7 @@
+# Gradle cache & build output
+.gradle/
+build/
+
+# Minecraft dev runtime (created by runClient)
+run/
+
